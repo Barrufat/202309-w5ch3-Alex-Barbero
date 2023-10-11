@@ -5,6 +5,9 @@ class Character {
   isAlive = true;
   serie = "Game of Thrones";
 
+  constructor(characterName) {
+    this.name = characterName;
+  }
   die() {
     this.isAlive = false;
   }
