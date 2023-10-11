@@ -3,8 +3,9 @@ import Character from "../Character/Character.js";
 class Assessor extends Character {
   assessoredCharacter;
 
-  constructor(characterName) {
+  constructor(characterName, assessoredName) {
     super(characterName);
+    this.assessoredCharacter = assessoredName;
   }
 
   communicate() {

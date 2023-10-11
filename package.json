@@ -2,7 +2,8 @@
   "name": "202309-w5ch3-alex-barbero",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./public/index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node .",
     "star:dev": "node --watchAll .",
@@ -19,6 +20,7 @@
   "dependencies": {
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
+    "commitlint": "^17.7.2",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.3"
   }
