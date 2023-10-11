@@ -8,7 +8,7 @@ class Assessor extends Character {
     this.assessoredCharacter = assessoredName;
   }
 
-  communicate() {
+  comunicate() {
     return `${super.comunicate()} I don't know why, but I'm going to die soon! `;
   }
 }

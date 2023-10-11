@@ -8,7 +8,7 @@ class Kight extends Character {
     super(characterName);
   }
 
-  communicate() {
+  comunicate() {
     return `${super.comunicate()} I first hit and then ask! `;
   }
 }

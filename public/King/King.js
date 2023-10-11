@@ -7,7 +7,7 @@ class King extends Character {
     super(characterName);
   }
 
-  communicate() {
+  comunicate() {
     return `${super.comunicate()} You're all going to die! `;
   }
 }
