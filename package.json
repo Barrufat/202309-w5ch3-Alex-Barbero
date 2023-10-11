@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "node .",
-    "star:dev": "node --watchAll .",
+    "start:dev": "node --watch .",
     "prepare": "husky install"
   },
   "keywords": [],

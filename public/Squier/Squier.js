@@ -8,7 +8,7 @@ class Squier extends Character {
     super(characterName);
   }
 
-  communicate() {
+  comunicate() {
     return `${super.comunicate()} I'm a f** loser `;
   }
 }
